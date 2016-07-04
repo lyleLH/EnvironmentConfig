@@ -3,7 +3,7 @@
 
 	点击按钮后，会弹出选择当前app的API接口环境的actionsheet选择，选择后重启app即可生效，使得请求的接口地址变更到选择的环境
 	
-![image](https://github.com/lyleLH/EnvironmentConfig/blob/master/2016-07-04%2014_34_02.gif)
+![image](https://github.com/lyleLH/EnvironmentConfig/blob/master/demo.gif)
 
 	
 ## 应用场景
