@@ -13,6 +13,10 @@
 		9897F4001D2A1075000AB43F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9897F3FE1D2A1075000AB43F /* Main.storyboard */; };
 		9897F4021D2A1075000AB43F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9897F4011D2A1075000AB43F /* Assets.xcassets */; };
 		9897F4051D2A1075000AB43F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9897F4031D2A1075000AB43F /* LaunchScreen.storyboard */; };
+		9897F40E1D2A113A000AB43F /* LHEnvManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9897F40D1D2A113A000AB43F /* LHEnvManager.m */; };
+		9897F4111D2A1208000AB43F /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9897F4101D2A1208000AB43F /* UIActionSheet+Blocks.m */; };
+		9897F4141D2A1214000AB43F /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9897F4131D2A1214000AB43F /* UIAlertView+Blocks.m */; };
+		9897F4171D2A1258000AB43F /* RIButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9897F4161D2A1258000AB43F /* RIButtonItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		9897F4011D2A1075000AB43F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9897F4041D2A1075000AB43F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9897F4061D2A1075000AB43F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9897F40C1D2A113A000AB43F /* LHEnvManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHEnvManager.h; sourceTree = "<group>"; };
+		9897F40D1D2A113A000AB43F /* LHEnvManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHEnvManager.m; sourceTree = "<group>"; };
+		9897F40F1D2A1208000AB43F /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
+		9897F4101D2A1208000AB43F /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
+		9897F4121D2A1214000AB43F /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		9897F4131D2A1214000AB43F /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		9897F4151D2A1258000AB43F /* RIButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIButtonItem.h; sourceTree = "<group>"; };
+		9897F4161D2A1258000AB43F /* RIButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIButtonItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +70,18 @@
 		9897F3F41D2A1075000AB43F /* EnvironmentConfig */ = {
 			isa = PBXGroup;
 			children = (
+				9897F4151D2A1258000AB43F /* RIButtonItem.h */,
+				9897F4161D2A1258000AB43F /* RIButtonItem.m */,
+				9897F4121D2A1214000AB43F /* UIAlertView+Blocks.h */,
+				9897F4131D2A1214000AB43F /* UIAlertView+Blocks.m */,
+				9897F40F1D2A1208000AB43F /* UIActionSheet+Blocks.h */,
+				9897F4101D2A1208000AB43F /* UIActionSheet+Blocks.m */,
 				9897F3F81D2A1075000AB43F /* AppDelegate.h */,
 				9897F3F91D2A1075000AB43F /* AppDelegate.m */,
 				9897F3FB1D2A1075000AB43F /* ViewController.h */,
 				9897F3FC1D2A1075000AB43F /* ViewController.m */,
+				9897F40C1D2A113A000AB43F /* LHEnvManager.h */,
+				9897F40D1D2A113A000AB43F /* LHEnvManager.m */,
 				9897F3FE1D2A1075000AB43F /* Main.storyboard */,
 				9897F4011D2A1075000AB43F /* Assets.xcassets */,
 				9897F4031D2A1075000AB43F /* LaunchScreen.storyboard */,
@@ -150,7 +170,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9897F3FD1D2A1075000AB43F /* ViewController.m in Sources */,
+				9897F40E1D2A113A000AB43F /* LHEnvManager.m in Sources */,
 				9897F3FA1D2A1075000AB43F /* AppDelegate.m in Sources */,
+				9897F4171D2A1258000AB43F /* RIButtonItem.m in Sources */,
+				9897F4141D2A1214000AB43F /* UIAlertView+Blocks.m in Sources */,
+				9897F4111D2A1208000AB43F /* UIActionSheet+Blocks.m in Sources */,
 				9897F3F71D2A1075000AB43F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

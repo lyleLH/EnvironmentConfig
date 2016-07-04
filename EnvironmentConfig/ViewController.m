@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LHEnvManager.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+
+
+
+- (IBAction)actionChange:(id)sender {
+    
+    [[LHEnvManager shareManager] showSwitch];
 }
 
 - (void)didReceiveMemoryWarning {
